@@ -10,8 +10,8 @@ import java.net.http.HttpResponse;
 
 public class RequestApi {
 
-    //Your API Key: eb312581fa65f67a53eb93cc
-    String url = "https://v6.exchangerate-api.com/v6/eb312581fa65f67a53eb93cc/pair/";
+    //Your API Key:
+    String url = "https://v6.exchangerate-api.com/v6/API_LEY/pair/";
 
     public RequestDatos seleccionMoneda(String monedaBase, String monedaCambio, double montoConvertir){
 
